@@ -1,9 +1,7 @@
-package com.gzonestudios.mc.multicraft;
+package com.gzonestudios.mc.multicraft.velocity;
 
 import com.velocitypowered.api.command.CommandSource;
 import com.velocitypowered.api.command.SimpleCommand;
-import com.velocitypowered.api.proxy.ConsoleCommandSource;
-import com.velocitypowered.api.proxy.Player;
 import net.kyori.adventure.text.Component;
 
 public class ListCommand implements SimpleCommand {
