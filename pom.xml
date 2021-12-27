@@ -18,7 +18,7 @@
     </properties>
 
     <scm>
-        <developerConnection>scm:git:https://github.com/gzone-studios/velocity-multicraft-support.git</developerConnection>
+        <developerConnection>scm:git:https://github.com/gzone-studios/proxy-multicraft-support.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
@@ -26,7 +26,7 @@
         <repository>
             <id>github</id>
             <name>GitHub</name>
-            <url>https://maven.pkg.github.com/gzone-studios/velocity-multicraft-support</url>
+            <url>https://maven.pkg.github.com/gzone-studios/proxy-multicraft-support</url>
         </repository>
     </distributionManagement>
 
