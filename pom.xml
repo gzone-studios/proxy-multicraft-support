@@ -4,7 +4,7 @@
 
     <groupId>com.gzonestudios.mc</groupId>
     <artifactId>multicraft</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>PluginInstance</name>
@@ -19,7 +19,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/gzone-studios/proxy-multicraft-support.git</developerConnection>
-        <tag>multicraft-1.0.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <distributionManagement>
