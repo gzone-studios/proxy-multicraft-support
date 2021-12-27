@@ -1,0 +1,4 @@
+name: multicraft
+main: com.gzonestudios.mc.multicraft.bungeecord.PluginInstance
+version: 1.0
+author: NiklasZeroZero

@@ -1,8 +1,6 @@
-package com.gzonestudios.mc.multicraft;
+package com.gzonestudios.mc.multicraft.velocity;
 
-import com.velocitypowered.api.command.Command;
 import com.velocitypowered.api.command.CommandSource;
-import com.velocitypowered.api.command.RawCommand;
 import com.velocitypowered.api.command.SimpleCommand;
 import com.velocitypowered.api.proxy.ConsoleCommandSource;
 import com.velocitypowered.api.proxy.Player;
@@ -22,9 +20,7 @@ public class StopCommand implements SimpleCommand {
         if (source instanceof ConsoleCommandSource) {
             this.plugin.getServer().getCommandManager().executeImmediatelyAsync(source, "end");
             this.plugin.getLogger().info("The server is now shutting down with '/stop'");
-        }
-
-        else if (source instanceof Player) {
+        } else if (source instanceof Player) {
             ((Player)source).spoofChatInput("/stop");
         }
 
