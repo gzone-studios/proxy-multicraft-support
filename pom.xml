@@ -19,7 +19,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/gzone-studios/proxy-multicraft-support.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>multicraft-1.0.0</tag>
     </scm>
 
     <distributionManagement>
